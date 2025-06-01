@@ -9,7 +9,7 @@
     <body>
         <?php
             
-            is_numeric($_GET['id']) or die("invalid URL");
+            // is_numeric($_GET['id']) or die("invalid URL");
             
             require_once '../../db.php';
             
